@@ -15,7 +15,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 
@@ -64,6 +63,8 @@ ul.container-flex{
 
 .section-1{
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-1 > h1,
@@ -76,8 +77,11 @@ ul.container-flex{
     font-size: 60px;
 }
 
-
-
+/* SECTION 2 */
+.container-flex2{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -126,5 +130,44 @@ ul.container-flex{
 .debug .section-1{
     background-color: plum;
     max-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 2 */
+.debug .section-2-background{
+    min-height: 400px;
+    background-color: greenyellow;
+}
+
+.debug .section-2{
+    background-color: cyan;
+    min-width: 60%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+.debug aside{
+    background-color: lightpink;
+    min-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 2 FLIPPED */
+.debug .section-2-flipped-background{
+    min-height: 400px;
+    background-color: gray;
+}
+
+.debug .section-2-flipped{
+    background-color: cyan;
+    min-width: 40%;
+    min-height: 340px;
+    border: 1px dashed black;
+}
+.debug .section-2-flipped-background aside{
+    background-color: lightpink;
+    min-width: 60%;
+    min-height: 340px;
     border: 1px dashed black;
 }
