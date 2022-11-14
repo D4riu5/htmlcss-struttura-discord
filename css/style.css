@@ -83,7 +83,7 @@ ul.container-flex{
     align-items: center;
 }
 
-
+/* SECTION 3 */
 
 
 
@@ -169,5 +169,18 @@ ul.container-flex{
     background-color: lightpink;
     min-width: 60%;
     min-height: 340px;
+    border: 1px dashed black;
+}
+
+/* SECTION 3 */
+.debug .section-3-background{
+    min-height: 700px;
+    background-color: orange;
+}
+
+.debug .section-3{
+    background-color: purple;
+    min-width: 100%;
+    min-height: 640px;
     border: 1px dashed black;
 }
