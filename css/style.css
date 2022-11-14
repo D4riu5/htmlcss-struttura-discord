@@ -83,6 +83,16 @@ ul.container-flex{
     align-items: center;
 }
 
+/* SECTION 3 */
+.section-3{
+text-align: center;
+display: flex;
+flex-flow: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
 /* FOOTER */
 .container-flex3{
     display: flex;

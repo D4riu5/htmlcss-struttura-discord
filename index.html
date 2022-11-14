@@ -10,11 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug">
+    <!-- HEADER -->
     <header>
+        <!-- NAV LAYOUT WITH 3 FLEX ITEMS -->
         <nav class="container container-flex">
+            <!-- ITEM 1 (LOGO) -->
             <div class="logo container-flex">
                 <img src="" alt="logo">
             </div>
+            <!-- ITEM 2 (ANOTHER FLEX CONTAINER WITH 7 ITEMS) -->
             <ul class="container-flex">
                 <li> <a href="#">LINK</a></li>
                 <li> <a href="#">LINK</a></li>
@@ -24,13 +28,16 @@
                 <li> <a href="#">LINK</a></li>
                 <li> <a href="#">LINK</a></li>
             </ul>
+            <!-- ITEM 3 (LOGIN BUTTON) -->
             <div class="login container-flex">
                 login
             </div>
         </nav>
     </header>
 
+    <!-- MAIN (SECTION 1, JUMOBTRON; SECTION 2,REPEATED TWICE AND MIRRORED INBETWEEN; SECTION 3) -->
     <main>
+        <!-- JUMBOTRON SECTION WITH IMAGE BACKGROUND (CSS), H1, P, 2 BUTTON LINKS (USED P AS PLACEHOLDER)  -->
         <div class="section-1-background container-flex ">
             <section class="section-1 container-flex">
                 <h1>Lorem, ipsum dolor.</h1>
@@ -38,6 +45,8 @@
                 <p>Lorem, ipsum.</p>
             </section>
         </div>
+        <!-- EVERYTHING FROM HERE ON IS CONTAINED IN THE .CONTAINER CLASS: MAX-WIDHT: 1200PX -->
+        <!-- SECTION 2, WITH 2 SUB-SECTIONS, 1 FOR IMAGE 1 FOR H1 AND PARAGRAPH -->
         <div class="section-2-background">
             <div class="section-2-background container container-flex2">
                 <section class="section-2">
@@ -48,6 +57,7 @@
                 </aside>
             </div>
         </div>
+        <!-- SAME AS SECTION 2 BUT MIRRORED-->
         <div class="section-2-flipped-background">
             <div class="section-2-flipped-background container container-flex2">
                 <section class="section-2-flipped">
@@ -57,6 +67,7 @@
     
                 </aside>
             </div>
+        <!-- SAME SECTION 2, JUST COPIED -->
         </div>
         <div class="section-2-background">
             <div class="section-2-background container container-flex2">
@@ -68,16 +79,22 @@
                 </aside>
             </div>
         </div>
-        
+        <!-- SECTION 3, LARGER SECTION THAT CONTAINS H1, P, IMAGE, H2 AND 1 LINKED BUTTON -->
         <div class="section-3-background">
             <div class="section-3-background container container-flex2">
                 <section class="section-3">
-                
+                    <H1>Lorem ipsum dolor sit.</H1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem delectus dicta libero illum assumenda, magnam aspernatur, repellendus numquam atque iure, nemo deleniti debitis nobis nostrum odit adipisci. Laborum, doloribus et.</p>
+                    <img src="" alt="image-placeholder">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <button>download</button>
                 </section>
             </div>
     </main>
 
+    <!-- FOOTER, NAV AND BUTTONS SECTION -->
     <footer>
+        <!-- FOOTER NAV LAYOUT WITH 5 ITEMS -->
         <nav class="footer-background">
             <div class="footer-background container container-flex2">
                 <div class="footer-links1">
@@ -96,8 +113,9 @@
 
                 </div>
             </div>
-            <hr>
+            <hr class="container">
         </nav>
+        <!-- FOOTER BUTTONS SECTION. LOGO AND BUTTON -->
         <section class="footer-background2">
             <div class="footer-background2 container container-flex3">
                 <div class="footer-buttons container-flex4">
