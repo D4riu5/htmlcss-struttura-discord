@@ -9,6 +9,7 @@
 .container-flex {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -20,7 +21,7 @@
 
 /* HEADER START */
 header{
-    min-height: 50px;
+    min-height: 60px;
 }
 
 .logo,
@@ -42,6 +43,9 @@ a{
     text-decoration: none;
 }
 
+.logo.container-flex{
+    justify-content: flex-start;
+}
 ul.container-flex{
     justify-content: space-around;
     padding: 0 150px;
@@ -50,34 +54,77 @@ ul.container-flex{
 .login.container-flex{
     justify-content: flex-end;
 }
+/* HEADER END */
+
+/* MAIN START */
+/* SECTION 1 */
+.section-1-background{
+    background-color: blue;
+}
+
+.section-1{
+    text-align: center;
+}
+
+.section-1 > h1,
+.section-1 > p{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.section-1 > h1{
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* DEBUG */
 
-.debug{
-    padding: 15px;  
-}
+
 /* HEADER START */
 .debug header{
+    padding: 15px;
     background-color: lightskyblue;
 }
 
 .debug header .logo {
     background-color: rgb(240, 226, 29);
     height: 30px;
-    border: 1px dashed red;
+    border: 1px dashed black;
 }
 
 .debug header ul {
     background-color: rgb(240, 226, 29);
     height: 30px;
-    border: 1px dashed red;
+    border: 1px dashed black;
 }
 
 .debug header .login {
     background-color: rgb(240, 226, 29);
     height: 30px;
-    border: 1px dashed red;
+    border: 1px dashed black;
 }
 /* HEADER END */
 
+/* MAIN START */
+/* SECTION 1 */
+.debug .section-1-background{
+    min-height: 400px;
+}
+
+.debug .section-1{
+    background-color: plum;
+    max-width: 40%;
+    border: 1px dashed black;
+}
