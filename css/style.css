@@ -28,11 +28,6 @@ header{
     min-width: 20%;
 }
 
-.logo,
-.login{
-    min-width: 20%;
-}
-
 ul{
     width: 60%;
     list-style-type: none;
