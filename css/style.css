@@ -5,7 +5,51 @@
     box-sizing: border-box;
 }
 
+/* general rules */
+.container-flex {
+    display: flex;
+    align-items: center;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* HEADER START */
+header{
+    min-height: 50px;
+}
+
+.logo,
+.login{
+    min-width: 20%;
+}
+
+.logo,
+.login{
+    min-width: 20%;
+}
+
+ul{
+    width: 60%;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul.container-flex{
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.login.container-flex{
+    justify-content: flex-end;
+}
 
 
 /* DEBUG */
@@ -13,3 +57,27 @@
 .debug{
     padding: 15px;  
 }
+/* HEADER START */
+.debug header{
+    background-color: lightskyblue;
+}
+
+.debug header .logo {
+    background-color: rgb(240, 226, 29);
+    height: 30px;
+    border: 1px dashed red;
+}
+
+.debug header ul {
+    background-color: rgb(240, 226, 29);
+    height: 30px;
+    border: 1px dashed red;
+}
+
+.debug header .login {
+    background-color: rgb(240, 226, 29);
+    height: 30px;
+    border: 1px dashed red;
+}
+/* HEADER END */
+
